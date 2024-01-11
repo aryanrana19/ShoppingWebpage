@@ -6,7 +6,7 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #1c1c26;
-    color: #fff;
+    color: whitesmoke;
 }
 
 
@@ -185,7 +185,7 @@ body{
 }
 
 .buy{
-    background-color: #864AF9;
+    background-color: hsl(261, 80%, 55%);
     color: #fff;
 }
 
@@ -210,6 +210,8 @@ body{
 
 .qty-selector button.reduce{
     border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .qty-selector button.reduce:hover{
@@ -223,6 +225,8 @@ body{
 
 .qty-selector button.increase{
     border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .qty-selector button.increase:hover{
@@ -267,12 +271,17 @@ body{
     border-radius: 10px;
     padding: 10px;
     width: 100%;
-    height: 60px;
+    height: 75px;
 }
 
-.box h3,h6{
+.box h3{
     margin: 10px 0px;
-    /* padding: 0; */
+    font-size: 22px;
+}
+
+.box h6{
+    margin: 10px 0px;
+    font-size: 14px;
 }
 
 
@@ -281,7 +290,7 @@ body{
 .text-bg{
     width: 10px;
     height: 60px;
-    background-color: #F8E559;
+    background-color: hsl(261, 80%, 55%);
     position: relative;
     left: 75px;
     top: 75px;
@@ -313,8 +322,10 @@ body{
     width: 200px;
     font-size: 18px;
     border-radius: 10px;
-    background-color: #F8E559;
+    background-color: hsl(261, 80%, 55%);
     cursor: pointer;
+    color: white;
+    border: none;
 }
 
 .footer-btn:hover{
@@ -322,10 +333,10 @@ body{
 }
 
 .contact-info{
-    background-color: #F8E559;
+    background-color: hsl(261, 80%, 55%);
     width: 30%;
     height: 100%;
-    color: black;
+    color: whitesmoke;
     padding: 0px 50px;
 }
 
